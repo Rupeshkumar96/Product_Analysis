@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+google-search-results
+scikit-learn
+matplotlib
+seaborn
