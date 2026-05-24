@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from serpapi import GoogleSearch
 import streamlit as st
 import matplotlib.pyplot as plt
