@@ -29,7 +29,6 @@ if med_name is not None:
     if st.sidebar.button("Search Results"):
         shopping_results=comapre(med_name)
         lowest_price=float((shopping_results[0].get('extracted_price')))
-        print(lowest_price)
         lowest_price_index=0
         st.sidebar.image(shopping_results[0].get('thumbnail'), width=200)
         for i in range(int(option)):
