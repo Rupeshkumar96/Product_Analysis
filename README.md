@@ -37,7 +37,6 @@ Product_Analysis/
 ├── requirements.txt
 ├── images.png
 ├── README.md
-└── venv/
 ```
 
 ---
@@ -123,11 +122,9 @@ SERPAPI_KEY = "YOUR_API_KEY"
 
 ```python
 import pandas as pd
-import numpy as np
 import streamlit as st
 from serpapi import GoogleSearch
 import matplotlib.pyplot as plt
-import seaborn as sns
 ```
 
 ---
@@ -146,11 +143,3 @@ import seaborn as sns
 
 **Rupesh Kumar**
 
-- GitHub: https://github.com/Rupeshkumar96
-- Streamlit App: https://appuctanalysis-rupeshkumar.streamlit.app/
-
----
-
-## ⭐ If You Like This Project
-
-Give this repository a ⭐ on GitHub.
