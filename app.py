@@ -17,7 +17,7 @@ def comapre(med_name):
     return shopping_results
 c1,c2=st.columns(2)
 c1.image("images.png", width=200)
-c2.header("E _Pharmacy Price Comparison")
+c2.header("MediCost Optimizer")
 
 
 st.sidebar.title("Enter Name of Medicine")
